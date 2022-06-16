@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+.logo1 img{
+    height: 9vh;
+}
+.d-flex{
+    display: flex!important;
+    justify-content: space-evenly;
+}.nav-item  :hover{
+    background-color:hsl(216deg 76% 80%);
+}
+.container-fluid{
+    background-color: #004bb1;
+    
+}
+.navbarDropdown.nav-link{
+    color:white;
+}
+#navbarDropdown{
+    color:white;
+}
+.navbar-expand-lg{
+    background-color: #004bb1;
+}
+/* .d-flex main-container{
+    display: flex!important;
+    justify-content: space-around;
+} */
+/* .container mt-3{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    flex-direction: row;
+    justify-content: flex-start;
+} */
+.d-flex para{
+    display: flex!important;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+}
+.d-flex footer{
+    display: flex!important;
+    color: white;
+    /* position: absolute; */
+    width: 100vw;
+    background-color: #131415;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
